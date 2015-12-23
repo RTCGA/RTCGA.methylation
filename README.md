@@ -1,11 +1,21 @@
 # RTCGA.methylation
 
+A part of [RTCGA](https://github.com/RTCGA) family.
 
+To install development version from GitHub use
 
-### Note
+````{R}
+library(RTCGA)
+installTCGA("RTCGA.methylation")
+````
 
-`data/OV.methylation` file is larger that GitHub's 100 MB limit so it's uploaded with `git-lfs`. To learn more about this process see
+Make sure you have [Rtools](https://cran.r-project.org/bin/windows/Rtools/) installed on your computer, if you are trying `devtools` on Windows.
 
-- [versioning large files](https://help.github.com/articles/versioning-large-files/)
-- [`git-lfs`](https://git-lfs.github.com/)
-- [configuring git large file storage](https://help.github.com/articles/configuring-git-large-file-storage/)
+To install Bioconductor development version use (the same as GitHub development version) - not yet there
+
+````{R}
+BiocInstaller::useDevel() # swiches to devel branchof Bioconductor
+source("https://bioconductor.org/biocLite.R") # downloads bioClite function
+biocLite("RTCGA.methylation") # installs a package
+````
+
