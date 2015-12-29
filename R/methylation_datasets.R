@@ -10,6 +10,7 @@
 #' Use cases, examples and information about datasets in \pkg{RTCGA.data}
 #' family can be found here: \code{browseVignettes("RTCGA")}. Methylation data format
 #' is explained here \url{https://wiki.nci.nih.gov/display/TCGA/DNA+methylation}.
+#' Converting \pkg{RTCGA.methylation} datasets from \code{data.frames} to Bioconductor classes is explained here \link{convertTCGA}.
 #' 
 #' @details \code{browseVignettes("RTCGA")}
 #' 
