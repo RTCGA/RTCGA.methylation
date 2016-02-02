@@ -1,4 +1,5 @@
-# RTCGA.methylation
+[![Build Status](http://bioconductor.org/shields/build/devel/data-experiment/RTCGA.methylation.svg)](http://bioconductor.org/checkResults/devel/data-experiment-LATEST/RTCGA.methylation/)
+# [RTCGA.methylation](http://bioconductor.org/packages/RTCGA.methylation/)
 
 A part of [RTCGA](https://github.com/RTCGA) family.
 
